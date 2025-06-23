@@ -1,0 +1,11 @@
+{
+  "name": "cicd-html",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "htmlhint index.html && eslint script.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "htmlhint": "^1.1.4"
+  }
+}
